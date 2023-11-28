@@ -2,6 +2,6 @@
     "framework": "nextjs",
     "rewrites": [
       {"source": "/", "destination": "https://portfolio-starter-red.vercel.app/"},
-      {"source": "/*","destination": "https://portfolio-starter-red.vercel.app/:match*"}
+      {"source": "/_next/*","destination": "https://portfolio-starter-red.vercel.app/_next/:match*"}
     ]
 }
