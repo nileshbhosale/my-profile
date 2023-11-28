@@ -42,6 +42,18 @@ const config = {
 			},
 		];
 	},
+  async rewrites() {
+    return [
+      {
+        source: "/blog",
+        destination: "https://starter-kit-rose-seven.vercel.app/blog",
+      },
+      {
+        source: "/blog/:path*",
+        destination: "https://starter-kit-rose-seven.vercel.app/blog/:path*",
+      },
+    ];
+  },
 };
 
 module.exports = config;
