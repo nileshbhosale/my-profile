@@ -1,9 +1,7 @@
 {
     "framework": "nextjs",
     "rewrites": [
-      {"source": "/blog/:match*", "destination": "https://my-profile-git-main-nilesh-bhosales-projects.vercel.app/blog/:match*"},
       {"source": "/_next/:match*", "destination": "https://portfolio-starter-red.vercel.app/_next/:match*"},
-      {"source": "/", "destination": "https://portfolio-starter-red.vercel.app/"},
-      {"source": "/:match*", "destination": "https://portfolio-starter-red.vercel.app/:match*"}
+      {"source": "/", "destination": "https://portfolio-starter-red.vercel.app/"}
     ]
 }
