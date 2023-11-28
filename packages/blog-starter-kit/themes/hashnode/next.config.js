@@ -46,11 +46,11 @@ const config = {
     return [
       {
         source: "/blog",
-        destination: "https://starter-kit-rose-seven.vercel.app/blog",
+        destination: "https://nileshbhosale.com/blog",
       },
       {
         source: "/blog/:path*",
-        destination: "https://starter-kit-rose-seven.vercel.app/blog/:path*",
+        destination: "https://nileshbhosale.com/blog/:path*",
       },
     ];
   },
