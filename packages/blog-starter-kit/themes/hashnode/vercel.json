@@ -1,6 +1,7 @@
 {
     "framework": "nextjs",
     "rewrites": [
+      {"source": "/fonts/:match*", "destination": "https://portfolio-starter-red.vercel.app/fonts/:match*"},
       {"source": "/_next/:match*", "destination": "https://portfolio-starter-red.vercel.app/_next/:match*"},
       {"source": "/", "destination": "https://portfolio-starter-red.vercel.app/"}
     ]
