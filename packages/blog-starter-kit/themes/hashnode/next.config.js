@@ -51,10 +51,7 @@ const config = {
       {
         source: "/blog/:path*",
         destination: "https://nileshbhosale.com/blog/:path*",
-      },{
-        source: "/",
-        destination: "https://portfolio-starter-red.vercel.app/",
-      },
+      }
     ];
   },
 };
