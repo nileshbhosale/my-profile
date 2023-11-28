@@ -1,7 +1,7 @@
 {
     "framework": "nextjs",
     "rewrites": [
-      {"source": "/", "destination": "https://portfolio-starter-red.vercel.app/"},
-      {"source": "/_next/*","destination": "https://portfolio-starter-red.vercel.app/_next/:match*"}
+      {"source": "/_next/*","destination": "https://portfolio-starter-red.vercel.app/_next/:match*"},
+      {"source": "/", "destination": "https://portfolio-starter-red.vercel.app/"}
     ]
 }
